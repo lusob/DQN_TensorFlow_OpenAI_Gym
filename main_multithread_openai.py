@@ -13,8 +13,8 @@ gc.enable()
 MONITOR_FILES_PATH = 'openai_gym_files' # default saving directory
 
 params = {
-    #'env_name': 'SpaceInvaders-v0',
-    'env_name': 'Tetris-v0',
+    'env_name': 'SpaceInvaders-v0',
+    #'env_name': 'Tetris-v0',
     'visualize' : True,
     'network_type':'nips',
     'ckpt_file':None,
